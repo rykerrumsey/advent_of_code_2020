@@ -1,0 +1,5 @@
+FROM elixir:1.11
+
+RUN useradd -ms /bin/bash elixir
+
+USER elixir
